@@ -2,8 +2,8 @@ import axios from "axios";
 
 export default class ApiManager {
   // LocalHost
-  _BASE_URL = "http://localhost:4000/api/";
-  // _BASE_URL = "https://assignment-nodejs.herokuapp.com/api/";
+  // _BASE_URL = "http://localhost:4000/api/";
+  _BASE_URL = "https://assignment-nodejs.herokuapp.com/api/";
 
   _ADD_USER = "user/add";
   _GET_USER_LIST = "user/get";
