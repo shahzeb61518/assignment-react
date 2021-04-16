@@ -37,7 +37,7 @@ function HeaderComponent(props) {
                   props.history.push(ROUTES.softdelete);
                 }}
               >
-                Soft Deleted
+                 Deleted Users
               </a>
             </li>
           </ul>
