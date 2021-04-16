@@ -1,0 +1,15 @@
+.container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.user-info {
+  text-align: left;
+}
+.user-list {
+  text-align: left;
+}
+
+.add-user {
+  text-align: left;
+}
