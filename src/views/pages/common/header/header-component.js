@@ -3,7 +3,6 @@ import { withRouter } from "react-router";
 import { ROUTES } from "../../../../helpers/RoutePaths";
 
 function HeaderComponent(props) {
-  console.log("propsssssssssssss.", props);
   return (
     <div className="header">
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
