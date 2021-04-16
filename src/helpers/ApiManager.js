@@ -160,19 +160,19 @@ export default class ApiManager {
       locationVal: _location,
     };
     console.log("data for adding>>>>>", data);
-    return this.sendPostRequest(url, data, this.headers);
+    return this.sendPostRequest(url, data, "");
   }
 
   //   Get User List Function
   getUserList() {
     let url = this._GET_USER_LIST;
-    return this.sendGetRequest(url, "", this.headers);
+    return this.sendGetRequest(url, "", "");
   }
 
   //   Get Deleted User List Function
   getDeletedUsers() {
     let url = this._GET_DELETED_USERS;
-    return this.sendGetRequest(url, "", this.headers);
+    return this.sendGetRequest(url, "", "");
   }
 
   // Updating User Function
@@ -188,7 +188,7 @@ export default class ApiManager {
       locationVal: _location,
     };
     console.log("data for updating>>", data);
-    return this.sendPutRequest(url, data, this.headers);
+    return this.sendPutRequest(url, data, "");
   }
 
   // Delete User Funtion
@@ -198,7 +198,7 @@ export default class ApiManager {
     };
     let url = this._DELETE_USER;
     console.log("Delete User>>>>", data);
-    return this.sendDeleteRequest(url, data, this.headers);
+    return this.sendDeleteRequest(url, data, "");
   }
 
   softDeleteUser(id) {
@@ -207,6 +207,6 @@ export default class ApiManager {
     };
     let url = this._SOFT_DELETE_USER;
     console.log("Delete User>>>>", data);
-    return this.sendPutRequest(url, data, this.headers);
+    return this.sendPutRequest(url, data, "");
   }
 }
